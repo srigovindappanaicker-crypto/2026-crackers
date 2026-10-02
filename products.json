@@ -1,38 +1,1424 @@
 [
   {
-    "slNo": "01",
+    "slNo": "1",
     "category": "SPARKLERS",
-    "name": "10cm Electric Sparklers",
-    "stock": 50,
+    "name": "7cm Electric Sparklers (10 pcs)",
+    "stock": 30,
+    "originalPrice": 80,
+    "payablePrice": 8,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1F9z9hUFyfryY-Q8YGIlP_H5oh-SmB4U1"
+  },
+  {
+    "slNo": "2",
+    "category": "SPARKLERS",
+    "name": "7cm Colour Sparklers (10 pcs)",
+    "stock": 30,
+    "originalPrice": 90,
+    "payablePrice": 9,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1HPcmBxShgblW8ZOY1ZNCbYefeDJMP_q8"
+  },
+  {
+    "slNo": "3",
+    "category": "SPARKLERS",
+    "name": "7cm Green Sparklers (10 pcs)",
+    "stock": 10,
     "originalPrice": 100,
-    "payablePrice": 30,
-    "imageUrl": "https://placehold.co/80x80/ffe0b2/e65100?text=Sparkler"
+    "payablePrice": 10,
+    "imageUrl": "https://lh3.googleusercontent.com/d/17zF67PdTcamve7FkSvZJfVoldRxPDgPy"
   },
   {
-    "slNo": "02",
-    "category": "FLOWER POTS",
-    "name": "Flower Pot Big",
-    "stock": 25,
+    "slNo": "4",
+    "category": "SPARKLERS",
+    "name": "7cm Red Sparklers (10 pcs)",
+    "stock": 10,
+    "originalPrice": 110,
+    "payablePrice": 11,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1nAmi5rMpQfs9wk5RazFKUWfR1Mdaj7XF"
+  },
+  {
+    "slNo": "5",
+    "category": "SPARKLERS",
+    "name": "10cm Electric Sparklers (10 pcs)",
+    "stock": 20,
+    "originalPrice": 140,
+    "payablePrice": 14,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1oxkFUwlhfTltZavUwkwG6ny_rh6kaSZo"
+  },
+  {
+    "slNo": "6",
+    "category": "SPARKLERS",
+    "name": "10cm Colour Sparklers (10 pcs)",
+    "stock": 20,
+    "originalPrice": 150,
+    "payablePrice": 15,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1y0ZZAscPYoVKGn3VZ1UDUq0qFVo4n3by"
+  },
+  {
+    "slNo": "7",
+    "category": "SPARKLERS",
+    "name": "10cm Green Sparklers (10 pcs)",
+    "stock": 10,
+    "originalPrice": 170,
+    "payablePrice": 17,
+    "imageUrl": "https://lh3.googleusercontent.com/d/12WQieY1LWMq_IufQa3mheh5Gu5NPhqAf"
+  },
+  {
+    "slNo": "8",
+    "category": "SPARKLERS",
+    "name": "10cm Red Sparklers (10 pcs)",
+    "stock": 10,
+    "originalPrice": 220,
+    "payablePrice": 22,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1uY-QW_9e5XKUtUJ68kl0-GIe1mJcgExZ"
+  },
+  {
+    "slNo": "9",
+    "category": "SPARKLERS",
+    "name": "12cm electric sparklers (10 pcs)",
+    "stock": 20,
+    "originalPrice": 250,
+    "payablePrice": 25,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1qqCiaJZhEdNd3XlYz_AO-h8YX6TJNXjx"
+  },
+  {
+    "slNo": "10",
+    "category": "SPARKLERS",
+    "name": "12cm color sparklers (10 pcs)",
+    "stock": 15,
+    "originalPrice": 280,
+    "payablePrice": 28,
+    "imageUrl": "https://lh3.googleusercontent.com/d/19pNc6v_wzm6AubHMBAUCgYXahnV6GmvN"
+  },
+  {
+    "slNo": "11",
+    "category": "SPARKLERS",
+    "name": "12cm Green sparklers (10 pcs)",
+    "stock": 10,
+    "originalPrice": 290,
+    "payablePrice": 29,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1uT6x9O9zpeEOmGtna8p-FG8ee29qe7xN"
+  },
+  {
+    "slNo": "12",
+    "category": "SPARKLERS",
+    "name": "12cm red sparklers (10 pcs)",
+    "stock": 10,
+    "originalPrice": 330,
+    "payablePrice": 33,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1qtBOk7Mt6BBmV2jA_fEMWNFsK0afQYuS"
+  },
+  {
+    "slNo": "13",
+    "category": "SPARKLERS",
+    "name": "15cm electric sparklers (10 pcs)",
+    "stock": 50,
+    "originalPrice": 390,
+    "payablePrice": 39,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1y9yo4ogw5PZvobCLkQC9Jq5--ujIXIkE"
+  },
+  {
+    "slNo": "14",
+    "category": "SPARKLERS",
+    "name": "15cm color sparklers (10 pcs)",
+    "stock": 50,
+    "originalPrice": 410,
+    "payablePrice": 41,
+    "imageUrl": "https://lh3.googleusercontent.com/d/11ZemOUm85KrxkuIZ4DX5BkbLqmbkLr0o"
+  },
+  {
+    "slNo": "15",
+    "category": "SPARKLERS",
+    "name": "15cm Green sparklers (10 pcs)",
+    "stock": 50,
+    "originalPrice": 430,
+    "payablePrice": 43,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1E7Uv9L8eXRfdcQIczKNUWick9Ohfnyn8"
+  },
+  {
+    "slNo": "16",
+    "category": "SPARKLERS",
+    "name": "15cm Red sparklers (10 pcs)",
+    "stock": 30,
+    "originalPrice": 460,
+    "payablePrice": 46,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1lVMfTMOzYg1gleHtAp2t1YP67s5Qir1q"
+  },
+  {
+    "slNo": "17",
+    "category": "SPARKLERS",
+    "name": "30cm electric sparklers (5 pcs)",
+    "stock": 50,
+    "originalPrice": 390,
+    "payablePrice": 39,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1ACBTRQ3yIDrk031MEuIPekLwSi0_rcxb"
+  },
+  {
+    "slNo": "18",
+    "category": "SPARKLERS",
+    "name": "30cm color sparklers (5 pcs)",
+    "stock": 60,
+    "originalPrice": 410,
+    "payablePrice": 41,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1mdjDo_s17t0R5YQBamGhRmExrVY84mC8"
+  },
+  {
+    "slNo": "19",
+    "category": "SPARKLERS",
+    "name": "30cm Green sparklers (5 pcs)",
+    "stock": 60,
+    "originalPrice": 420,
+    "payablePrice": 42,
+    "imageUrl": "https://lh3.googleusercontent.com/d/10yEMHueSZLbmw5OwxTLNIIhgrbRs31zr"
+  },
+  {
+    "slNo": "20",
+    "category": "SPARKLERS",
+    "name": "30cm red sparklers (5 pcs)",
+    "stock": 40,
+    "originalPrice": 460,
+    "payablePrice": 46,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1ZDhWuBCmQpA1k5vc5yppS1IuF3ZqyxB-"
+  },
+  {
+    "slNo": "21",
+    "category": "SPARKLERS",
+    "name": "50cm electric sparklers (5 pcs)",
+    "stock": 20,
+    "originalPrice": 1520,
+    "payablePrice": 152,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1MwkUW8yXhWQ5K_Xb_0nry3DLmxx1rs88"
+  },
+  {
+    "slNo": "22",
+    "category": "SPARKLERS",
+    "name": "50cm color sparklers (5 pcs)",
+    "stock": 15,
+    "originalPrice": 1680,
+    "payablePrice": 168,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1q9_HzhmXELEnwOsOgrIM8bfBYwgTvwul"
+  },
+  {
+    "slNo": "23",
+    "category": "SPARKLERS",
+    "name": "Rotating Sparklers (1pce)",
+    "stock": 5,
+    "originalPrice": 2060,
+    "payablePrice": 206,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1GWtpzBd7wplw0Bt0Cg3oYuum8fYg4vgD"
+  },
+  {
+    "slNo": "24",
+    "category": "SPECIAL SPAKLERS",
+    "name": "10Cm cocktail (10 pcs)",
+    "stock": 5,
+    "originalPrice": 350,
+    "payablePrice": 35,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1INThmralnYV7_PPlvvgxDxdvsc4Y9t-W"
+  },
+  {
+    "slNo": "25",
+    "category": "SPECIAL SPAKLERS",
+    "name": "10Cm 5 in 1 (slide type) (50pcs)",
+    "stock": 3,
+    "originalPrice": 1900,
+    "payablePrice": 190,
+    "imageUrl": "https://lh3.googleusercontent.com/d/18F9fiBzbaTSaA_x4CoEPDTBoQuhACQAt"
+  },
+  {
+    "slNo": "26",
+    "category": "SPECIAL SPAKLERS",
+    "name": "12Cm Twin Tone(10pcs)",
+    "stock": 5,
+    "originalPrice": 550,
+    "payablePrice": 55,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1IpKzGLxKomwPCHNwfkmTreaXxk4HiJ6R"
+  },
+  {
+    "slNo": "27",
+    "category": "SPECIAL SPAKLERS",
+    "name": "12Cm Silver Drops(10pcs)",
+    "stock": 10,
+    "originalPrice": 600,
+    "payablePrice": 60,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1hIpzNse9XaB96YVH-DpaunUhDJ_edoPC"
+  },
+  {
+    "slNo": "28",
+    "category": "SPECIAL SPAKLERS",
+    "name": "15Cm Bouquet Bonanza (Gift pack)",
+    "stock": 2,
+    "originalPrice": 5150,
+    "payablePrice": 515,
+    "imageUrl": "https://lh3.googleusercontent.com/d/17la884wZaENg9ECZa4Pf_6kKK6Cgm1f7"
+  },
+  {
+    "slNo": "29",
+    "category": "SPECIAL SPAKLERS",
+    "name": "50Cm Mix Trix(5pcs)",
+    "stock": 5,
+    "originalPrice": 2250,
+    "payablePrice": 225,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1o8drHO354Raw16GlRuylezXGKQvpi64K"
+  },
+  {
+    "slNo": "31",
+    "category": "SINGLE SOUND CRACKERS",
+    "name": "2¾ Kuruvi (5 pcs) special price***",
+    "stock": 20,
+    "originalPrice": 80,
+    "payablePrice": 8,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1isvsLx1XO43Bau8QAf_PuDXMXzzwjN5y"
+  },
+  {
+    "slNo": "32",
+    "category": "SINGLE SOUND CRACKERS",
+    "name": "3½” Lakshmi",
+    "stock": 10,
+    "originalPrice": 120,
+    "payablePrice": 12,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1CnKJXHwjQSdXNdVGePUJ6ShA99Pff1Zv"
+  },
+  {
+    "slNo": "33",
+    "category": "SINGLE SOUND CRACKERS",
+    "name": "4” Lakshmi",
+    "stock": 10,
+    "originalPrice": 180,
+    "payablePrice": 18,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1PeFDQnxJfyn54HMioZQOB_4wPgioGyX7"
+  },
+  {
+    "slNo": "34",
+    "category": "SINGLE SOUND CRACKERS",
+    "name": "4” Deluxe Lakshmi",
+    "stock": 10,
     "originalPrice": 300,
-    "payablePrice": 120,
-    "imageUrl": "https://placehold.co/80x80/ffe0b2/e65100?text=Pot"
+    "payablePrice": 30,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1P2TZgkj8cZLmdDF1eOcNiT7lEQusKG4j"
   },
   {
-    "slNo": "03",
-    "category": "GROUND CHAKKARS",
-    "name": "Ground Chakkar Deluxe",
+    "slNo": "35",
+    "category": "SINGLE SOUND CRACKERS",
+    "name": "4” Gold lakshimi",
+    "stock": 10,
+    "originalPrice": 340,
+    "payablePrice": 34,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1_met3RlQVWsb2_VFm4iRpKjeHnANpCZG"
+  },
+  {
+    "slNo": "36",
+    "category": "SINGLE SOUND CRACKERS",
+    "name": "5\" mega deluxe",
+    "stock": 5,
+    "originalPrice": 600,
+    "payablePrice": 60,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1cghzEnkBaZs2rQYQf6ox09gYQMy3gddW"
+  },
+  {
+    "slNo": "37",
+    "category": "SINGLE SOUND CRACKERS",
+    "name": "6\" mega deluxe",
+    "stock": 5,
+    "originalPrice": 700,
+    "payablePrice": 70,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1GiSxynkjLgJquGwffMdkdyln1yeamxNg"
+  },
+  {
+    "slNo": "38",
+    "category": "SINGLE SOUND CRACKERS",
+    "name": "2 sound",
+    "stock": 5,
+    "originalPrice": 340,
+    "payablePrice": 34,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1NJIczHVBZ0pSEBDbAK5K2K8du2O--tZA"
+  },
+  {
+    "slNo": "39",
+    "category": "GROUND CHAKKARA",
+    "name": "Ground chakker big (10 pcs)special price***",
+    "stock": 40,
+    "originalPrice": 350,
+    "payablePrice": 35,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1W8DdwrEYFa_nQHJl2s515x0M1YW-R2Mn"
+  },
+  {
+    "slNo": "40",
+    "category": "GROUND CHAKKARA",
+    "name": "Ground chakker special (10 pcs)",
+    "stock": 40,
+    "originalPrice": 820,
+    "payablePrice": 82,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1rxhAhoK5GFJf7zEKL-HJ9I3s26XI9s65"
+  },
+  {
+    "slNo": "41",
+    "category": "GROUND CHAKKARA",
+    "name": "Ground chakker Deluxe (10 pcs)",
+    "stock": 20,
+    "originalPrice": 1600,
+    "payablePrice": 160,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1hOMfYeB6v2kcirHEnscswCPRVFMuBo0_"
+  },
+  {
+    "slNo": "42",
+    "category": "GROUND CHAKKARA",
+    "name": "Colour Spinner (10 pcs)",
+    "stock": 20,
+    "originalPrice": 1250,
+    "payablePrice": 125,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1t_2l30zQ3zIj5v2GbAQIsHrN26e87GKN"
+  },
+  {
+    "slNo": "43",
+    "category": "GROUND CHAKKARA",
+    "name": "Colour changing Spinner (10 pcs)",
+    "stock": 20,
+    "originalPrice": 1250,
+    "payablePrice": 125,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1eox6wH9FRhzkn231vIBkvT-Rb6JjYpB4"
+  },
+  {
+    "slNo": "44",
+    "category": "GROUND CHAKKARA",
+    "name": "ZAMIN chakker Asoka (10pcs)",
+    "stock": 20,
+    "originalPrice": 1200,
+    "payablePrice": 120,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1uPAaZNR7WsKGXo7GjyAyprOQRkmYJYIX"
+  },
+  {
+    "slNo": "45",
+    "category": "GROUND CHAKKARA",
+    "name": "ZAMIN chakker Deluxe (10pcs)",
+    "stock": 10,
+    "originalPrice": 1750,
+    "payablePrice": 175,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1HT4BE6zWa1FVlEIui2ScdlXAOFuZnXNm"
+  },
+  {
+    "slNo": "46",
+    "category": "NEW NOVILTY CHAKKERA",
+    "name": "Wire Chakkara (10 pcs)",
+    "stock": 10,
+    "originalPrice": 1550,
+    "payablePrice": 155,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1eJJWlG82-hEXLlx_hgOBrBI4KQcesmvD"
+  },
+  {
+    "slNo": "47",
+    "category": "NEW NOVILTY CHAKKERA",
+    "name": "Damo Fun 5pcs (3 chakkar in 1 function)",
+    "stock": 5,
+    "originalPrice": 1350,
+    "payablePrice": 135,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1jkWpX55hbJbKkz8tuTTbGYszGGWj4HFt"
+  },
+  {
+    "slNo": "48",
+    "category": "NEW NOVILTY CHAKKERA",
+    "name": "Bambara (red & green) (10 pcs)",
+    "stock": 5,
+    "originalPrice": 1100,
+    "payablePrice": 110,
+    "imageUrl": "https://lh3.googleusercontent.com/d/10eTNHu0EES6fBbAhMt47oTYf-2gvOfv8"
+  },
+  {
+    "slNo": "49",
+    "category": "NEW NOVILTY CHAKKERA",
+    "name": "Disco wheel (5 PCS) special price***",
+    "stock": 25,
+    "originalPrice": 600,
+    "payablePrice": 60,
+    "imageUrl": "https://lh3.googleusercontent.com/d/11-taI0LUbFjtM9M4Q8zHPSJ34u21JrHL"
+  },
+  {
+    "slNo": "50",
+    "category": "NEW NOVILTY CHAKKERA",
+    "name": "Whisling Wheel (5pcs)",
+    "stock": 15,
+    "originalPrice": 1350,
+    "payablePrice": 135,
+    "imageUrl": "https://lh3.googleusercontent.com/d/15JB23ZxqJ0eilF5g61tut5RBcUA8yepR"
+  },
+  {
+    "slNo": "51",
+    "category": "NEW NOVILTY CHAKKERA",
+    "name": "4*4 wheel (5pcs)",
+    "stock": 2,
+    "originalPrice": 1800,
+    "payablePrice": 180,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1u3UBKgzYR1Ebyqrk9WFxS_3c5NFyAXSp"
+  },
+  {
+    "slNo": "52",
+    "category": "NEW NOVILTY CHAKKERA",
+    "name": "VANITHA SPINNER MIX",
+    "stock": 2,
+    "originalPrice": 2000,
+    "payablePrice": 200,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1CirGg_dvLZ9UKcL5r5Bpr_YG9sNneGUU"
+  },
+  {
+    "slNo": "53",
+    "category": "NEW NOVILTY CHAKKERA",
+    "name": "Spinner super Deluxe (10Pcs)",
+    "stock": 3,
+    "originalPrice": 2950,
+    "payablePrice": 295,
+    "imageUrl": "https://lh3.googleusercontent.com/d/12mf0tc-D8l0HoeVKoShDvPZs7LbRn_a1"
+  },
+  {
+    "slNo": "54",
+    "category": "NEW NOVILTY CHAKKERA",
+    "name": "POPPET rope chakkar (5pcs)",
+    "stock": 1,
+    "originalPrice": 5250,
+    "payablePrice": 525,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1sYCJaoesmU6ayQ_gL-UEMI61LStITpOg"
+  },
+  {
+    "slNo": "55",
+    "category": "NEW NOVILTY CHAKKERA",
+    "name": "Celebration chakkara (4 PCS)",
+    "stock": 1,
+    "originalPrice": 3400,
+    "payablePrice": 340,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1Cd3qrgoQ79HspHtM49zZ-6xi6_ud8xzz"
+  },
+  {
+    "slNo": "56",
+    "category": "FLOWER POT ITEMS",
+    "name": "Flower pot Small (10 pcs)",
+    "stock": 15,
+    "originalPrice": 450,
+    "payablePrice": 45,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1plFo2gySVBjWeX2WjyMujlKEBGlsaVqp"
+  },
+  {
+    "slNo": "57",
+    "category": "FLOWER POT ITEMS",
+    "name": "Flower pot Big (10 pcs)",
+    "stock": 40,
+    "originalPrice": 540,
+    "payablePrice": 54,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1hdJDx1cpzWoq3esp8EzzdWMFaA2k1IIa"
+  },
+  {
+    "slNo": "58",
+    "category": "FLOWER POT ITEMS",
+    "name": "Flower pot Special (10 pcs)",
+    "stock": 40,
+    "originalPrice": 700,
+    "payablePrice": 70,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1Y7SXz5Ud1Ma5KxCYI8cWGl8NezAOhq1A"
+  },
+  {
+    "slNo": "59",
+    "category": "FLOWER POT ITEMS",
+    "name": "Flower pot Ashoka (10 pcs)",
+    "stock": 20,
+    "originalPrice": 1000,
+    "payablePrice": 100,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1L2HuavMRwbPiM8Bu63DqtOuV2oKPlvd_"
+  },
+  {
+    "slNo": "60",
+    "category": "FLOWER POT ITEMS",
+    "name": "Flower pot deluxe (5pcs)",
+    "stock": 10,
+    "originalPrice": 1650,
+    "payablePrice": 165,
+    "imageUrl": "https://lh3.googleusercontent.com/d/17KRiDlCFnQOGLfV11IdcpFqw8l1fzuqB"
+  },
+  {
+    "slNo": "61",
+    "category": "FLOWER POT ITEMS",
+    "name": "Flower pot Super Dulexe (2pcs)",
+    "stock": 5,
+    "originalPrice": 1050,
+    "payablePrice": 105,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1rfn7_2DgoegknTpM_AISv7aFeVDHzJ46"
+  },
+  {
+    "slNo": "62",
+    "category": "FLOWER POT ITEMS",
+    "name": "Flower pot color koti (10pcs)special price",
+    "stock": 15,
+    "originalPrice": 1600,
+    "payablePrice": 160,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1ZwNagtpr8JMcRsIOIjRfjzPFwqIuwfO-"
+  },
+  {
+    "slNo": "63",
+    "category": "FLOWER POT ITEMS",
+    "name": "Flower pot colour koti DLX (10 pcs)",
+    "stock": 10,
+    "originalPrice": 3100,
+    "payablePrice": 310,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1FDLGtW-WraPHM5mmCNRhjjCs3s6Yc2LS"
+  },
+  {
+    "slNo": "64",
+    "category": "FLOWER POT ITEMS",
+    "name": "Popeye (Tricolour) (5pcs) special price",
+    "stock": 10,
+    "originalPrice": 1500,
+    "payablePrice": 150,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1Xzgqup0kIHzSOFwqjanA2KqtzyOy1ccP"
+  },
+  {
+    "slNo": "65",
+    "category": "FLOWER POT ITEMS",
+    "name": "Balle Balle (Tricolour) (5pcs)",
+    "stock": 5,
+    "originalPrice": 2600,
+    "payablePrice": 260,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1XdXwr9iX1TBdD5R7CN94tPVBc1DzfzeS"
+  },
+  {
+    "slNo": "66",
+    "category": "FANCY SOIL POTS",
+    "name": "Chun mun (5pcs)",
+    "stock": 2,
+    "originalPrice": 2150,
+    "payablePrice": 215,
+    "imageUrl": "https://lh3.googleusercontent.com/d/19IiNkKyIptVLI1RtRkb6bdjaxEQI4ZSW"
+  },
+  {
+    "slNo": "67",
+    "category": "FANCY SOIL POTS",
+    "name": "Rim Zim/ Tim Tim/ Ko ko (5pcs)",
+    "stock": 2,
+    "originalPrice": 2500,
+    "payablePrice": 250,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1j3dqvx4xYMtmjnFtwgFOwQwKOVYlogaT"
+  },
+  {
+    "slNo": "68",
+    "category": "FANCY SOIL POTS",
+    "name": "2 in 1",
+    "stock": 1,
+    "originalPrice": 4500,
+    "payablePrice": 450,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1L-iImOJW4TaD6VYi00Vgg3ZryIfEfRrF"
+  },
+  {
+    "slNo": "69",
+    "category": "FANCY SOIL POTS",
+    "name": "Asarafi (5pcs)",
+    "stock": 1,
+    "originalPrice": 4300,
+    "payablePrice": 430,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1Tx-vP1kZ63rr5q5NJm1MmDqiXFxx6WGN"
+  },
+  {
+    "slNo": "70",
+    "category": "FANCY SOIL POTS",
+    "name": "Colour changing (5pcs) / jasmine",
+    "stock": 1,
+    "originalPrice": 4800,
+    "payablePrice": 480,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1Jpi4JYZvLdPn8wsJLo0sDM7JXWHFVpFe"
+  },
+  {
+    "slNo": "71",
+    "category": "CRACKERS",
+    "name": "Red bijili (100Pcs approx)",
+    "stock": 20,
+    "originalPrice": 300,
+    "payablePrice": 30,
+    "imageUrl": "https://lh3.googleusercontent.com/d/18GToK1tuA66pqBjB2r4fj9B-I945IFqb"
+  },
+  {
+    "slNo": "72",
+    "category": "CRACKERS",
+    "name": "Red bijili (50Pcs) special price",
+    "stock": 20,
+    "originalPrice": 180,
+    "payablePrice": 18,
+    "imageUrl": "https://lh3.googleusercontent.com/d/13GiuTQhJO1H57-6ETd6H3SPTv95fGC0o"
+  },
+  {
+    "slNo": "73",
+    "category": "CRACKERS",
+    "name": "Gold / stripped bijili (100Pcs approx)",
+    "stock": 10,
+    "originalPrice": 350,
+    "payablePrice": 35,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1PEJJMBL7rQErLhSTNqJL0BvNRxqlOVlh"
+  },
+  {
+    "slNo": "74",
+    "category": "CRACKERS",
+    "name": "Pom Pom",
+    "stock": 5,
+    "originalPrice": 1950,
+    "payablePrice": 195,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1br_SDP5Z0j1UhGV5Yc_6c2UzXktg97Ur"
+  },
+  {
+    "slNo": "75",
+    "category": "DIGITAL WALA",
+    "name": "28 Digital Poppers (30 PCS)",
+    "stock": 10,
+    "originalPrice": 3500,
+    "payablePrice": 350,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1fBSllQbGTRUnPCUb5NexFm3iF1PPs1_O"
+  },
+  {
+    "slNo": "76",
+    "category": "DIGITAL WALA",
+    "name": "Kungfu Digital wala (1 PCS)",
+    "stock": 30,
+    "originalPrice": 350,
+    "payablePrice": 35,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1EaqBmgbOsE6TSFCH7Gfq7reMlPVvx2hJ"
+  },
+  {
+    "slNo": "77",
+    "category": "DIGITAL WALA",
+    "name": "Magic colour whip (1 pcs)",
+    "stock": 10,
+    "originalPrice": 1650,
+    "payablePrice": 165,
+    "imageUrl": "https://lh3.googleusercontent.com/d/10QEEbtrNqcavUbShD3b9WG-mPqzmjJ_Q"
+  },
+  {
+    "slNo": "78",
+    "category": "DIGITAL WALA",
+    "name": "100K POPCORN (100000 WALA SOUND) (1PCS) (267)",
+    "stock": 2,
+    "originalPrice": 5500,
+    "payablePrice": 550,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1zEIaa8SLtbXbjf-VIam72j1WOBXeHvEp"
+  },
+  {
+    "slNo": "79",
+    "category": "WALA",
+    "name": "1000 wala",
+    "stock": 20,
+    "originalPrice": 2000,
+    "payablePrice": 200,
+    "imageUrl": "https://lh3.googleusercontent.com/d/16N9R7uxEotudbtt4aqh2v94MZHN_sxrb"
+  },
+  {
+    "slNo": "80",
+    "category": "WALA",
+    "name": "2000 wala",
+    "stock": 10,
+    "originalPrice": 4000,
+    "payablePrice": 400,
+    "imageUrl": "https://lh3.googleusercontent.com/d/18Fvv1NVubmnCmNp0QnHvcmaUgRWp_L3_"
+  },
+  {
+    "slNo": "81",
+    "category": "WALA",
+    "name": "5000 wala",
+    "stock": 4,
+    "originalPrice": 9000,
+    "payablePrice": 900,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1-mAPmunFmOMEdo_Cf59Dz6UNKbVXT5Mf"
+  },
+  {
+    "slNo": "82",
+    "category": "WALA",
+    "name": "10000 wala",
+    "stock": 2,
+    "originalPrice": 18000,
+    "payablePrice": 1800,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1UZtad_Jmkvd79FOcETg4-r0eblwykzD_"
+  },
+  {
+    "slNo": "83",
+    "category": "CANDLES & TWINGLING STAR",
+    "name": "5G multi colour camera",
+    "stock": 2,
+    "originalPrice": 1050,
+    "payablePrice": 105,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1grJxMyLXdoUQ1I64FWqQOxikh_WFVvti"
+  },
+  {
+    "slNo": "84",
+    "category": "CANDLES & TWINGLING STAR",
+    "name": "10\"Pencil (10 Pcs)",
+    "stock": 20,
+    "originalPrice": 500,
+    "payablePrice": 50,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1r1iqX13LIbjrMTi9_ByDNruNdmWVApc4"
+  },
+  {
+    "slNo": "85",
+    "category": "CANDLES & TWINGLING STAR",
+    "name": "Ultra pencil (3pcs)",
+    "stock": 5,
+    "originalPrice": 700,
+    "payablePrice": 70,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1tF1lp0tcinnB8-QoVNv5nq_-0XHWoMjO"
+  },
+  {
+    "slNo": "86",
+    "category": "CANDLES & TWINGLING STAR",
+    "name": "Selfi stick (5PCS)",
+    "stock": 5,
+    "originalPrice": 1100,
+    "payablePrice": 110,
+    "imageUrl": "https://lh3.googleusercontent.com/d/18TQQuBJ2OOHHhq7GPt-fKVXE7OepzrVT"
+  },
+  {
+    "slNo": "87",
+    "category": "CANDLES & TWINGLING STAR",
+    "name": "Top Gun (5pcs)",
+    "stock": 1,
+    "originalPrice": 2000,
+    "payablePrice": 200,
+    "imageUrl": "https://lh3.googleusercontent.com/d/18qkVVikMmV2B_fRZwiF9aoiV4LfaDX8F"
+  },
+  {
+    "slNo": "88",
+    "category": "CANDLES & TWINGLING STAR",
+    "name": "Vanitha Tiny gun (6 pcs)",
+    "stock": 1,
+    "originalPrice": 3250,
+    "payablePrice": 325,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1NFHU28BnVE8DGidItfTprTIf4B2nq38O"
+  },
+  {
+    "slNo": "89",
+    "category": "CANDLES & TWINGLING STAR",
+    "name": "AKM 5G Gun (2 PCS)",
+    "stock": 1,
+    "originalPrice": 2000,
+    "payablePrice": 200,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1Az_JWZAwxYnG00ForvijXs-Mjzj1MD1t"
+  },
+  {
+    "slNo": "90",
+    "category": "CANDLES & TWINGLING STAR",
+    "name": "1½ Twinkling star(10 PCS) special price",
+    "stock": 10,
+    "originalPrice": 220,
+    "payablePrice": 22,
+    "imageUrl": "https://lh3.googleusercontent.com/d/17cCdEK-KNIPuJ64zJs5cRnEJCFEcnJsk"
+  },
+  {
+    "slNo": "91",
+    "category": "CANDLES & TWINGLING STAR",
+    "name": "4’ Twinkling star(10 PCS)",
+    "stock": 40,
+    "originalPrice": 750,
+    "payablePrice": 75,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1gi--ku7zeJ3mr99MABtKlwO0sJT3sGh4"
+  },
+  {
+    "slNo": "92",
+    "category": "CANDLES & TWINGLING STAR",
+    "name": "COLOUR ROPE (4 PCS)",
+    "stock": 1,
+    "originalPrice": 1750,
+    "payablePrice": 175,
+    "imageUrl": "https://lh3.googleusercontent.com/d/11uw6uYBnVqt5Q0SPX_R3rxlMeD2TmwAE"
+  },
+  {
+    "slNo": "93",
+    "category": "CANDLES & TWINGLING STAR",
+    "name": "NAYAGRA PENCHIL / Water falls pencil",
+    "stock": 2,
+    "originalPrice": 2200,
+    "payablePrice": 220,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1Bouj78mP0HRfmmDK0TX_ROUDu13iNhyE"
+  },
+  {
+    "slNo": "94",
+    "category": "CANDLES & TWINGLING STAR",
+    "name": "Super Siren Pencil",
+    "stock": 2,
+    "originalPrice": 1400,
+    "payablePrice": 140,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1of8isfBHR1duY9a3beXSZRF3hYBF9uOk"
+  },
+  {
+    "slNo": "95",
+    "category": "BOMBS",
+    "name": "Bullet bomb Foil (10 PCS)",
+    "stock": 10,
+    "originalPrice": 320,
+    "payablePrice": 32,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1qx4I9-1y6XNAKUSZPHcN-UwVBHeaMinP"
+  },
+  {
+    "slNo": "96",
+    "category": "BOMBS",
+    "name": "Hydro bomb green (10 PCS)",
+    "stock": 5,
+    "originalPrice": 850,
+    "payablePrice": 85,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1j6wg9isRfrGV7u6OcT7UuiOXNGVqhYIB"
+  },
+  {
+    "slNo": "97",
+    "category": "BOMBS",
+    "name": "King of king green (10 PCS)",
+    "stock": 5,
+    "originalPrice": 950,
+    "payablePrice": 95,
+    "imageUrl": "https://lh3.googleusercontent.com/d/10CpLBnIt2RpOQowtw0a3MCFlPtPXqR66"
+  },
+  {
+    "slNo": "98",
+    "category": "BOMBS",
+    "name": "Classic bomb green (10 PCS)",
+    "stock": 5,
+    "originalPrice": 1100,
+    "payablePrice": 110,
+    "imageUrl": "https://lh3.googleusercontent.com/d/15koze5WnyXX8EgBUH4rsSLG8Wau8gNzm"
+  },
+  {
+    "slNo": "99",
+    "category": "BOMBS",
+    "name": "Agni bomb / gorilla bomb (10 PCS)",
+    "stock": 2,
+    "originalPrice": 2300,
+    "payablePrice": 230,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1ENY2FqJDmiymbhIjGGrN572jgn1HuuRN"
+  },
+  {
+    "slNo": "100",
+    "category": "BOMBS",
+    "name": "Digital or Mighty mega bomb (10 PCS)",
+    "stock": 0,
+    "originalPrice": 2200,
+    "payablePrice": 220,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1D0WvlPKOvqh4vTKIpp9cbQfpiekH8fo-"
+  },
+  {
+    "slNo": "101",
+    "category": "BOMBS",
+    "name": "Paper bomb 250 gram (1 PCS)",
+    "stock": 5,
+    "originalPrice": 500,
+    "payablePrice": 50,
+    "imageUrl": "https://lh3.googleusercontent.com/d/15dADtHQ2n5jabhcaeKSrpXOn6GRth08f"
+  },
+  {
+    "slNo": "102",
+    "category": "BOMBS",
+    "name": "Paper bomb 500 gram (1 PCS)",
+    "stock": 2,
+    "originalPrice": 950,
+    "payablePrice": 95,
+    "imageUrl": "https://lh3.googleusercontent.com/d/10aYEHdem4qT5UAsy15FirfXrq-ZE_b01"
+  },
+  {
+    "slNo": "103",
+    "category": "ROCKETS",
+    "name": "Rocket bomb (10 PCS)",
+    "stock": 10,
+    "originalPrice": 700,
+    "payablePrice": 70,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1pDpzgKpjCfiekcldLOCCDMN9YsnpBU7O"
+  },
+  {
+    "slNo": "104",
+    "category": "ROCKETS",
+    "name": "Lunik rocket (10 PCS)",
+    "stock": 5,
+    "originalPrice": 1200,
+    "payablePrice": 120,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1w2Lvn6SKB_U2w-V_5_W-gK0lE02Ysefh"
+  },
+  {
+    "slNo": "105",
+    "category": "ROCKETS",
+    "name": "Musical rocket (5 PCS) starvel",
+    "stock": 5,
+    "originalPrice": 1250,
+    "payablePrice": 125,
+    "imageUrl": "https://lh3.googleusercontent.com/d/10ERQalOpCk4eTxwrcy1Eq_ZCZiR2Ce33"
+  },
+  {
+    "slNo": "106",
+    "category": "ROCKETS",
+    "name": "Two sound rocket (10 pcs)",
+    "stock": 5,
+    "originalPrice": 1200,
+    "payablePrice": 120,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1VmWsH9Lx_zopuDjXthyf2l0WOEX5sdhw"
+  },
+  {
+    "slNo": "107",
+    "category": "ROCKETS",
+    "name": "Colour paper bomb 1pcs",
+    "stock": 5,
+    "originalPrice": 600,
+    "payablePrice": 60,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1UhYvDTwMg7P9kjypGH392SL0jVVtcA8S"
+  },
+  {
+    "slNo": "108",
+    "category": "ROCKETS",
+    "name": "Tap tap (12 pcs)",
+    "stock": 5,
+    "originalPrice": 1750,
+    "payablePrice": 175,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1b8PPHwvPwE5aNzMJmt3ykFWwSyqzJgUe"
+  },
+  {
+    "slNo": "109",
+    "category": "ROCKETS",
+    "name": "Colour Smoke 3pcs special price",
+    "stock": 4,
+    "originalPrice": 1350,
+    "payablePrice": 135,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1AzQPMQPhYZRh2HkZXKSiSf0XY8t1sdm4"
+  },
+  {
+    "slNo": "110",
+    "category": "ROCKETS",
+    "name": "Old is Gold Colour paper bomb (25 PCS)",
+    "stock": 5,
+    "originalPrice": 1750,
+    "payablePrice": 175,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1t_E7xqWJqAij5fwRPR1mqfeHp4KTxBVP"
+  },
+  {
+    "slNo": "111",
+    "category": "ROCKETS",
+    "name": "Magic Money Show 2pcs",
+    "stock": 5,
+    "originalPrice": 2100,
+    "payablePrice": 210,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1wbYiDpjiY5cZOfk-KAV-xR6HbtzshqHQ"
+  },
+  {
+    "slNo": "112",
+    "category": "FANCY NOVELTIES",
+    "name": "NEW Emu egg (2pcs) special price",
+    "stock": 2,
+    "originalPrice": 1900,
+    "payablePrice": 190,
+    "imageUrl": "https://lh3.googleusercontent.com/d/11XmMs6rBTsLHx4FFotIJRDy_JT_TULWK"
+  },
+  {
+    "slNo": "113",
+    "category": "FANCY NOVELTIES",
+    "name": "Electric Stone (10pcs)",
+    "stock": 60,
+    "originalPrice": 80,
+    "payablePrice": 8,
+    "imageUrl": "https://lh3.googleusercontent.com/d/13g1Du7AkLinq0BkPgQD_PrKzQ_82cWX7"
+  },
+  {
+    "slNo": "114",
+    "category": "FANCY NOVELTIES",
+    "name": "Chitu puttu color (10pcs)",
     "stock": 40,
     "originalPrice": 250,
-    "payablePrice": 90,
-    "imageUrl": "https://placehold.co/80x80/ffe0b2/e65100?text=Chakkar"
+    "payablePrice": 25,
+    "imageUrl": "https://lh3.googleusercontent.com/d/11GqYmReDsmRZhyAH6wXWO9QdplY5nGiB"
   },
   {
-    "slNo": "04",
-    "category": "Rockets",
-    "name": "Baby Rocket",
+    "slNo": "115",
+    "category": "FANCY NOVELTIES",
+    "name": "kids (5pcs) Tom and Jerry",
+    "stock": 2,
+    "originalPrice": 1200,
+    "payablePrice": 120,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1CL6Q17IyLlDARSsyHxvncGpTSjGAlEFc"
+  },
+  {
+    "slNo": "116",
+    "category": "FANCY NOVELTIES",
+    "name": "Photo flash (5pcs) special price",
     "stock": 30,
-    "originalPrice": 200,
+    "originalPrice": 650,
+    "payablePrice": 65,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1De08ooVo8cpzFlmXsCnURUq_7PnU36HC"
+  },
+  {
+    "slNo": "117",
+    "category": "FANCY NOVELTIES",
+    "name": "Colour changing butterfly (10 pcs)",
+    "stock": 5,
+    "originalPrice": 900,
+    "payablePrice": 90,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1GfxJ68w8lqc97XNpqM1nwJgwmQXJPSSx"
+  },
+  {
+    "slNo": "118",
+    "category": "FANCY NOVELTIES",
+    "name": "Colour rain (5pcs)",
+    "stock": 5,
+    "originalPrice": 900,
+    "payablePrice": 90,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1khNAtw5WAFaNEMkp6canGJeDDmoPVq7n"
+  },
+  {
+    "slNo": "119",
+    "category": "FANCY NOVELTIES",
+    "name": "Peacock feathers (5 pcs)",
+    "stock": 3,
+    "originalPrice": 1170,
+    "payablePrice": 117,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1dzWkeXbtFP67qKG7H0kcw8W9glmZPzXb"
+  },
+  {
+    "slNo": "120",
+    "category": "FANCY NOVELTIES",
+    "name": "SS Shower spl function(5pcs)special price",
+    "stock": 5,
+    "originalPrice": 900,
+    "payablePrice": 90,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1Xd1-_YZFa9Kw85VvCVR7fBpC-aCTCC9f"
+  },
+  {
+    "slNo": "121",
+    "category": "FANCY NOVELTIES",
+    "name": "Siren (3pcs)",
+    "stock": 2,
+    "originalPrice": 1750,
+    "payablePrice": 175,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1uD4tACzNst3ZAojXW5IJ-b2Qou5oXmJD"
+  },
+  {
+    "slNo": "122",
+    "category": "FANCY NOVELTIES",
+    "name": "Tin beer(3pcs)",
+    "stock": 3,
+    "originalPrice": 1150,
+    "payablePrice": 115,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1_30Shca_9iXtp9l4bZuI-irJzV7HfqPB"
+  },
+  {
+    "slNo": "123",
+    "category": "FANCY NOVELTIES",
+    "name": "Peacock 5 (1 pcs) special price",
+    "stock": 10,
+    "originalPrice": 1400,
+    "payablePrice": 140,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1jvIk3G8xwbPcRoBLPtqemmHWQLDe31v3"
+  },
+  {
+    "slNo": "124",
+    "category": "FANCY NOVELTIES",
+    "name": "Peacock 3 (1 pcs) special price",
+    "stock": 10,
+    "originalPrice": 1420,
+    "payablePrice": 142,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1i1twoR7zjFVgE3qpBXPhll7E_V0ctr5S"
+  },
+  {
+    "slNo": "125",
+    "category": "FANCY NOVELTIES",
+    "name": "Water queen (1pcs) Water falls",
+    "stock": 2,
+    "originalPrice": 1900,
+    "payablePrice": 190,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1rio4W5GhnY8_xBqMGXbY_LMopcM0lDYk"
+  },
+  {
+    "slNo": "126",
+    "category": "FANCY NOVELTIES",
+    "name": "HELICOPTER (5pcs)",
+    "stock": 10,
+    "originalPrice": 970,
+    "payablePrice": 97,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1kux-wruHTzfAWjXLmLsYj3cOjgfeEJ03"
+  },
+  {
+    "slNo": "127",
+    "category": "FANCY NOVELTIES",
+    "name": "CRYTAL (3 PCS)",
+    "stock": 1,
+    "originalPrice": 8500,
+    "payablePrice": 850,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1qHUwY8Lzz_IoUxXWIyI6SWpupnGgfN4u"
+  },
+  {
+    "slNo": "128",
+    "category": "FANCY NOVELTIES",
+    "name": "FUN zone (4pcs)",
+    "stock": 2,
+    "originalPrice": 4250,
+    "payablePrice": 425,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1PXKDY3tnbsxHqIz_PYD6muvpgYZPMd_r"
+  },
+  {
+    "slNo": "129",
+    "category": "FANCY NOVELTIES",
+    "name": "5 in 1 fountain (1Pcs)",
+    "stock": 2,
+    "originalPrice": 3450,
+    "payablePrice": 345,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1ge1IMBgRQ6uH9tTRzzeJduz4pwlDHvrX"
+  },
+  {
+    "slNo": "130",
+    "category": "FANCY NOVELTIES",
+    "name": "Angry bird (5 pcs) special price",
+    "stock": 2,
+    "originalPrice": 2650,
+    "payablePrice": 265,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1mOLy6XdyD2scHn0Dt4jZXIDDZTiqdXo7"
+  },
+  {
+    "slNo": "131",
+    "category": "FANCY NOVELTIES",
+    "name": "Wonder 3 function (1pcs)",
+    "stock": 2,
+    "originalPrice": 1950,
+    "payablePrice": 195,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1S3K4WmIQeawBy5Rb3ZTC-2u4qZoE58KA"
+  },
+  {
+    "slNo": "132",
+    "category": "FANCY NOVELTIES",
+    "name": "Magic/music butterfly 3 function (1 pcs)",
+    "stock": 2,
+    "originalPrice": 3000,
+    "payablePrice": 300,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1Aww7V20_aXqze7PZiZR4DNKUOUGE8koL"
+  },
+  {
+    "slNo": "133",
+    "category": "FANCY NOVELTIES",
+    "name": "Bada Peacock (1 pcs)",
+    "stock": 10,
+    "originalPrice": 4000,
+    "payablePrice": 400,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1J4calIBaZXBsWqW20-oI3WNloQAUW1gB"
+  },
+  {
+    "slNo": "134",
+    "category": "FANCY NOVELTIES",
+    "name": "Scarlet Saucer (5pcs) STANDARD",
+    "stock": 1,
+    "originalPrice": 1600,
+    "payablePrice": 160,
+    "imageUrl": "https://lh3.googleusercontent.com/d/10srlX2xNck0DKjIqp5mrHA1QifCWXIl9"
+  },
+  {
+    "slNo": "135",
+    "category": "FANCY NOVELTIES",
+    "name": "Queen / King (5 PCS)",
+    "stock": 2,
+    "originalPrice": 1550,
+    "payablePrice": 155,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1rXCNa8Sq37WdtO8rCB37HXmIEvNDwI5h"
+  },
+  {
+    "slNo": "168",
+    "category": "NIGHT AERIAL ATTRACTIONS",
+    "name": "Sky shot (1Pcs) rider",
+    "stock": 30,
+    "originalPrice": 130,
+    "payablePrice": 13,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1yu0AaWEjUMDF4kaNpqCiZWLZ0vNzBxpG"
+  },
+  {
+    "slNo": "170",
+    "category": "NIGHT AERIAL ATTRACTIONS",
+    "name": "1½\" Chotta fancy (1Pc)",
+    "stock": 20,
+    "originalPrice": 350,
+    "payablePrice": 35,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1Xb1csy7cw3iAIaJgmS01nlNmBLzKO7Fl"
+  },
+  {
+    "slNo": "171",
+    "category": "NIGHT AERIAL ATTRACTIONS",
+    "name": "Penta force (5 PCS)",
+    "stock": 5,
+    "originalPrice": 1300,
+    "payablePrice": 130,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1i2lPAbyNuFvYlqzIAWVlP69_wOuJQw9E"
+  },
+  {
+    "slNo": "172",
+    "category": "NIGHT AERIAL ATTRACTIONS",
+    "name": "2\" MIX fancy (3pcs) Eco special price",
+    "stock": 10,
+    "originalPrice": 2500,
+    "payablePrice": 250,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1PVzGnEhMmjp3ommkYULn4RunoP_pNtph"
+  },
+  {
+    "slNo": "174",
+    "category": "NIGHT AERIAL ATTRACTIONS",
+    "name": "2” fancy (5 variants) (1PCS) special price",
+    "stock": 5,
+    "originalPrice": 950,
+    "payablePrice": 95,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1XKjY_SRS0vGt5IO0AtGA-iJpo9skphyU"
+  },
+  {
+    "slNo": "177",
+    "category": "NIGHT AERIAL ATTRACTIONS",
+    "name": "2 3/4\" Fancy (3 steps) special price",
+    "stock": 5,
+    "originalPrice": 2200,
+    "payablePrice": 220,
+    "imageUrl": "https://lh3.googleusercontent.com/d/17jZN9wp_HP2d6jp6iGbQfWSVf-q8cJUE"
+  },
+  {
+    "slNo": "178",
+    "category": "NIGHT AERIAL ATTRACTIONS",
+    "name": "3½” fancy (6 variants) (1PCS)",
+    "stock": 5,
+    "originalPrice": 3000,
+    "payablePrice": 300,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1rYpccuAagNanh5O8KBiXKZ4qVKhqhK-k"
+  },
+  {
+    "slNo": "179",
+    "category": "NIGHT AERIAL ATTRACTIONS",
+    "name": "4” fancy (6 variants) (1PCS)special price",
+    "stock": 7,
+    "originalPrice": 4000,
+    "payablePrice": 400,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1XOzwIC0jAEga8H7ib7P06Tpy0N4JaAi4"
+  },
+  {
+    "slNo": "181",
+    "category": "NIGHT AERIAL ATTRACTIONS",
+    "name": "4” fancy (double ball) (1pcs)",
+    "stock": 2,
+    "originalPrice": 4200,
+    "payablePrice": 420,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1exDNQ4Ni6hRQOOo3fUxyvdUY6XnD1D9i"
+  },
+  {
+    "slNo": "183",
+    "category": "NIGHT AERIAL ATTRACTIONS",
+    "name": "4\" DELUXE FANCY (6 VARIANTS) (2 PCS) (295)",
+    "stock": 2,
+    "originalPrice": 16000,
+    "payablePrice": 1600,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1eJYEVoosPV0kKv12SXjFXgdPXUoAb0vY"
+  },
+  {
+    "slNo": "184",
+    "category": "NIGHT AERIAL ATTRACTIONS",
+    "name": "4 inch NAYAGRA FALLS special price",
+    "stock": 2,
+    "originalPrice": 3500,
+    "payablePrice": 350,
+    "imageUrl": "https://lh3.googleusercontent.com/d/11ens4fMjlozSkEypw5iroXgudYJxU6Od"
+  },
+  {
+    "slNo": "189",
+    "category": "REPEATING FUNCTIONS",
+    "name": "7 Shots (5 pcs)",
+    "stock": 20,
+    "originalPrice": 1450,
+    "payablePrice": 145,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1gZ2zgQJAyUuBSlFi8WgOjSFbEQUA7ExD"
+  },
+  {
+    "slNo": "209",
+    "category": "REPEATING SHOTS",
+    "name": "12 shots Rider (1pc) special price",
+    "stock": 15,
+    "originalPrice": 1700,
+    "payablePrice": 170,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1BOwUs5lX7VBTh6IJ-Qhd-F4u1Vo2jVi7"
+  },
+  {
+    "slNo": "211",
+    "category": "REPEATING SHOTS",
+    "name": "30 shot multi color (1pc)special price",
+    "stock": 25,
+    "originalPrice": 4500,
+    "payablePrice": 450,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1en15EDDEFyL2O8p2KoG-AY_G_0r1Uiz3"
+  },
+  {
+    "slNo": "212",
+    "category": "REPEATING SHOTS",
+    "name": "60 shot multi color (1pc)",
+    "stock": 15,
+    "originalPrice": 9000,
+    "payablePrice": 900,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1OBaxQkAI9Ozr0eVqMnYo60sFXNqDRw17"
+  },
+  {
+    "slNo": "213",
+    "category": "REPEATING SHOTS",
+    "name": "120 shot multi color (1pc)",
+    "stock": 5,
+    "originalPrice": 18000,
+    "payablePrice": 1800,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1S4oAmTf7DIfz38-Yu6084Eigfbb0r8bm"
+  },
+  {
+    "slNo": "214",
+    "category": "CHILD SPECIAL",
+    "name": "Sachine laptop match box (10 Box)",
+    "stock": 20,
+    "originalPrice": 650,
+    "payablePrice": 65,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1_EjYfFNxi3RNMOPlDQarlLQ48cGOGUnj"
+  },
+  {
+    "slNo": "215",
+    "category": "CHILD SPECIAL",
+    "name": "Lion laptop match box (10 Box)",
+    "stock": 20,
+    "originalPrice": 1250,
+    "payablePrice": 125,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1JCV98dCAiodAdzXyN12HQWJRxSmKsK_W"
+  },
+  {
+    "slNo": "216",
+    "category": "CHILD SPECIAL",
+    "name": "Royal laptop match box (10 Box)",
+    "stock": 20,
+    "originalPrice": 2100,
+    "payablePrice": 210,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1Vc7nzsp-Cos0_j3tXt8AoccupQ42TUYZ"
+  },
+  {
+    "slNo": "217",
+    "category": "CHILD SPECIAL",
+    "name": "Roll cap (10 Roll)",
+    "stock": 5,
+    "originalPrice": 800,
     "payablePrice": 80,
-    "imageUrl": "https://placehold.co/80x80/ffe0b2/e65100?text=Rocket"
+    "imageUrl": "https://lh3.googleusercontent.com/d/18RRP7a01bwdHjBaaV-TffBNDDsOjBxRC"
+  },
+  {
+    "slNo": "218",
+    "category": "CHILD SPECIAL",
+    "name": "Ring cap (1pkt)",
+    "stock": 50,
+    "originalPrice": 90,
+    "payablePrice": 9,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1ZKr6ubhvdGEXtK6YiDyu7W0eaybPiwOa"
+  },
+  {
+    "slNo": "219",
+    "category": "CHILD SPECIAL",
+    "name": "Pop pop (50 box)",
+    "stock": 10,
+    "originalPrice": 5500,
+    "payablePrice": 550,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1-aifw4hi2WZQ9nlb7F5mZxxgbYnhNw28"
+  },
+  {
+    "slNo": "220",
+    "category": "CHILD SPECIAL",
+    "name": "Ring Gun ( 50 to 120)",
+    "stock": 5,
+    "originalPrice": 1300,
+    "payablePrice": 130,
+    "imageUrl": "https://lh3.googleusercontent.com/d/1E9WJRYyIusEmrpSLAkaLa2R_32JMm2vb"
+  },
+  {
+    "slNo": "221",
+    "category": "CHILD SPECIAL",
+    "name": "Roll gun ( 50 to 250)",
+    "stock": 5,
+    "originalPrice": 1200,
+    "payablePrice": 120,
+    "imageUrl": "https://lh3.googleusercontent.com/d/17RncZFs8g4A1IABH_gQWGF37UMN-tmD-"
   }
 ]
