@@ -367,24 +367,26 @@
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 
   <script>
-    /* ==========================================================================
-       NEW: GOOGLE APPS SCRIPT WEB APP API ENDPOINT
-       ========================================================================== */
-    const API_URL = "https://script.google.com/macros/s/AKfycbyeq7B3iAEuk3ydkLW1aitUmkhbeLrUEbeL5b-axHKbj2pV4UC5k50L3i7Gro-hrvAu/exec";
+    // PASTE YOUR GOOGLE APPS SCRIPT WEB APP URL HERE:
+    const API_URL = "https://script.google.com/macros/s/AKfycbwthAabgYkFoyE_o3U6_71h6CgE0vJGi2pdNDYAh-pBHXbCryEiR3vsZrW3fqhe0a12/exec";
 
     let products = [];
     let filteredProducts = [];
     let quantities = {};
     let lastOrderPayload = null;
 
-    /* ==========================================================================
-       NEW: REPLACED google.script.run WITH Native fetch() FOR GITHUB PAGES
-       ========================================================================== */
+    // Fetch Product Data from Google Apps Script Web App
     window.onload = function() {
-      fetch(API_URL)
-        .then(res => res.json())
+      fetch(API_URL, {
+        method: "GET",
+        redirect: "follow"
+      })
+        .then(res => {
+          if (!res.ok) throw new Error("HTTP Error " + res.status);
+          return res.json();
+        })
         .then(data => {
-          if (data.error) throw new Error(data.error);
+          if (data && data.error) throw new Error(data.error);
           products = data || [];
           filteredProducts = [...products];
           document.getElementById('loadingSpinner').classList.add('d-none');
@@ -395,6 +397,7 @@
           document.getElementById('loadingSpinner').innerHTML = `
             <div class="alert alert-danger mx-auto" style="max-width: 600px;">
               <strong>Error Loading Product Data:</strong> ${err.message}<br>
+              <small class="text-muted">Ensure your Google Apps Script is deployed with "Who has access: Anyone".</small>
             </div>`;
         });
     };
@@ -566,9 +569,7 @@
       modal.show();
     }
 
-    /* ==========================================================================
-       NEW: REPLACED google.script.run.processCustomerOrder WITH fetch() POST
-       ========================================================================== */
+    // Submit Customer Order to Google Sheet Backend
     document.getElementById('customerForm').addEventListener('submit', function(e) {
       e.preventDefault();
 
@@ -609,6 +610,7 @@
 
       fetch(API_URL, {
         method: "POST",
+        redirect: "follow",
         body: JSON.stringify(orderPayload)
       })
       .then(res => res.json())
