@@ -239,7 +239,7 @@
   <main class="container-fluid px-4 mt-3">
     <div id="loadingSpinner" class="text-center py-5">
       <div class="spinner-border text-danger" style="width: 3rem; height: 3rem;" role="status"></div>
-      <div class="mt-3 text-muted fw-bold">Loading product database from Google Sheet...</div>
+      <div class="mt-3 text-muted fw-bold">Loading product database...</div>
     </div>
 
     <div class="table-container rounded mb-4 d-none" id="tableWrapper">
@@ -267,7 +267,7 @@
 
   <div class="scrolling-footer">
     <marquee behavior="scroll" direction="left" scrollamount="6">
-      As per Supreme Court Order, Online Sale of Firecrackers are NOT permitted. We Value our customers and at the same time, we respect the jurisdiction. We request our customers to Select Your Products in Estimate Page to see your Estimation and Submit the required crackers through the Get Estimate Button. We will contact you within 12 hrs and Confirm the Order through Phone Call. Please Add and Submit Your enquiries and enjoy your Diwali with Thirumala Trading Company. Thirumala Trading Company is a shop following 100% legal & statutory compliances and all our shops, go-downs are maintained as per the explosive acts. Our License Name: Thirumala Trading Company Shop Licence No is xxx/2024. We send the parcels through registered and legal transport service providers as like every other major Companies in Sivakasi is doing so.
+      As per Supreme Court Order, Online Sale of Firecrackers are NOT permitted. We Value our customers and at the same time, we respect the jurisdiction. We request our customers to Select Your Products in Estimate Page to see your Estimation and Submit the required crackers through the Get Estimate Button. We will contact you within 12 hrs and Confirm the Order through Phone Call. Please Add and Submit Your enquiries and enjoy your Diwali with Thirumala Trading Company.
     </marquee>
   </div>
 
@@ -384,7 +384,31 @@
     let quantities = {};
     let lastOrderPayload = null;
 
-    // JSONP callback function triggered by Google Apps Script
+    // Load function with corporate network fallback
+    window.onload = function() {
+      // 1. Try JSONP Script load from Google Apps Script
+      const script = document.createElement('script');
+      script.src = `${API_URL}?callback=handleProductData`;
+
+      // 2. Fallback: If corporate firewall blocks script.google.com, fetch local products.json
+      script.onerror = function() {
+        console.warn("Corporate firewall blocked script.google.com. Attempting local products.json backup...");
+        fetch('./products.json')
+          .then(res => {
+            if (!res.ok) throw new Error("Fallback file products.json missing.");
+            return res.json();
+          })
+          .then(data => {
+            handleProductData(data);
+          })
+          .catch(err => {
+            showError("Corporate Firewall Blocked Google API. Please disconnect from Corporate VPN/Wi-Fi or access from Mobile Data.");
+          });
+      };
+
+      document.body.appendChild(script);
+    };
+
     function handleProductData(data) {
       if (data && data.error) {
         showError("Error: " + data.error);
@@ -403,16 +427,6 @@
           <strong>Error Loading Product Data:</strong> ${msg}
         </div>`;
     }
-
-    // Inject JSONP Script tag to load Google Apps Script data without CORS issues
-    window.onload = function() {
-      const script = document.createElement('script');
-      script.src = `${API_URL}?callback=handleProductData`;
-      script.onerror = function() {
-        showError("Failed to fetch data from Google Apps Script.");
-      };
-      document.body.appendChild(script);
-    };
 
     function filterProducts() {
       const term = document.getElementById('searchInput').value.toLowerCase().trim();
@@ -550,16 +564,6 @@
         return;
       }
 
-      for (let slNo in quantities) {
-        if (quantities[slNo] > 0) {
-          const p = products.find(prod => prod.slNo === slNo);
-          if (p && p.stock <= 0) {
-            alert(`Product '${p.name}' is Out of Stock. Please remove it to proceed.`);
-            return;
-          }
-        }
-      }
-
       const modalTableBody = document.getElementById('modalItemsListBody');
       modalTableBody.innerHTML = '';
 
@@ -663,10 +667,7 @@
 
         var interval = setInterval(function() {
           var timeLeft = animationEnd - Date.now();
-
-          if (timeLeft <= 0) {
-            return clearInterval(interval);
-          }
+          if (timeLeft <= 0) return clearInterval(interval);
 
           var particleCount = 50 * (timeLeft / duration);
           confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 } }));
