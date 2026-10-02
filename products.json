@@ -16,5 +16,23 @@
     "originalPrice": 300,
     "payablePrice": 120,
     "imageUrl": "https://placehold.co/80x80/ffe0b2/e65100?text=Pot"
+  },
+  {
+    "slNo": "03",
+    "category": "GROUND CHAKKARS",
+    "name": "Ground Chakkar Deluxe",
+    "stock": 40,
+    "originalPrice": 250,
+    "payablePrice": 90,
+    "imageUrl": "https://placehold.co/80x80/ffe0b2/e65100?text=Chakkar"
+  },
+  {
+    "slNo": "04",
+    "category": "Rockets",
+    "name": "Baby Rocket",
+    "stock": 30,
+    "originalPrice": 200,
+    "payablePrice": 80,
+    "imageUrl": "https://placehold.co/80x80/ffe0b2/e65100?text=Rocket"
   }
 ]
