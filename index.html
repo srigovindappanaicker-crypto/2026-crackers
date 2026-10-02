@@ -131,13 +131,35 @@
       display: block;
     }
 
+    /* Mobile Quantity Selection Buttons Styling */
+    .qty-group {
+      width: 140px;
+    }
+    .qty-btn {
+      width: 36px;
+      height: 38px;
+      font-weight: bold;
+      font-size: 1.1rem;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
     .qty-input {
-      width: 80px;
+      width: 55px;
       text-align: center;
       font-weight: bold;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      padding: 6px;
+      border-left: 0;
+      border-right: 0;
+      padding: 6px 2px;
+    }
+    .qty-input::-webkit-inner-spin-button,
+    .qty-input::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    .qty-input[type=number] {
+      -moz-appearance: textfield;
     }
 
     .stock-badge {
@@ -250,7 +272,7 @@
             <th>PRODUCT NAME</th>
             <th style="width: 130px;" class="text-center">STOCK</th>
             <th style="width: 150px;" class="text-center">PRICE</th>
-            <th style="width: 120px;" class="text-center">QTY</th>
+            <th style="width: 160px;" class="text-center">QTY</th>
             <th style="width: 140px;" class="text-end pe-4">SUB-TOTAL</th>
           </tr>
         </thead>
@@ -477,7 +499,11 @@
           <td class="text-center">
             ${isSoldOut ? 
               `<span class="sold-out-badge">SOLD OUT</span>` : 
-              `<input type="number" class="form-control qty-input mx-auto" min="0" max="${p.stock}" value="${qty}" onchange="updateQty('${p.slNo}', this.value)" onkeyup="updateQty('${p.slNo}', this.value)">`
+              `<div class="input-group qty-group mx-auto">
+                 <button class="btn btn-outline-secondary qty-btn" type="button" onclick="changeQty('${p.slNo}', -1)">-</button>
+                 <input type="number" id="input-${p.slNo}" class="form-control qty-input" min="0" max="${p.stock}" value="${qty}" onchange="updateQty('${p.slNo}', this.value)" onkeyup="updateQty('${p.slNo}', this.value)">
+                 <button class="btn btn-outline-secondary qty-btn" type="button" onclick="changeQty('${p.slNo}', 1)">+</button>
+               </div>`
             }
           </td>
           <td class="text-end pe-4 fw-bold fs-6">
@@ -488,6 +514,16 @@
       });
 
       calculateDashboard();
+    }
+
+    function changeQty(slNo, delta) {
+      const currentQty = quantities[slNo] || 0;
+      const newQty = currentQty + delta;
+      updateQty(slNo, newQty);
+      const inputEl = document.getElementById(`input-${slNo}`);
+      if (inputEl) {
+        inputEl.value = quantities[slNo];
+      }
     }
 
     function updateQty(slNo, value) {
