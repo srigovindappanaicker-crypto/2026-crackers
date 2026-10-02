@@ -1,0 +1,20 @@
+[
+  {
+    "slNo": "01",
+    "category": "SPARKLERS",
+    "name": "10cm Electric Sparklers",
+    "stock": 50,
+    "originalPrice": 100,
+    "payablePrice": 30,
+    "imageUrl": "https://placehold.co/80x80/ffe0b2/e65100?text=Sparkler"
+  },
+  {
+    "slNo": "02",
+    "category": "FLOWER POTS",
+    "name": "Flower Pot Big",
+    "stock": 25,
+    "originalPrice": 300,
+    "payablePrice": 120,
+    "imageUrl": "https://placehold.co/80x80/ffe0b2/e65100?text=Pot"
+  }
+]
