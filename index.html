@@ -1,30 +1,406 @@
-<script>
-    const API_URL = "https://script.google.com/macros/s/AKfycbypTEWtC1-NJ8JanHvqa2p7LMH26vlxmKuJS-4ijqNbyseEU4aWJMtDoVihk_iwH2Ar/exec";
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>2026 Crackers - Thirumala Trading Company</title>
+
+  <meta property="og:title" content="2026 Crackers - Price List & Online Estimate">
+  <meta property="og:description" content="Check out the 2026 Diwali Crackers Price List and submit your order estimate online.">
+  <meta property="og:url" content="https://srigovindappanaicker-crypto.github.io/2026-crackers/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://placehold.co/600x315/e91e63/ffffff?text=2026+Diwali+Crackers">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+  <style>
+    :root {
+      --primary-red: #e91e63;
+      --orange-bg: #ff9800;
+      --blue-bg: #2196f3;
+      --green-bg: #4caf50;
+      --pink-bg: #e91e63;
+      --header-yellow: #f0f3d0;
+      --category-orange: #ff9800;
+    }
+
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background-color: #f8f9fa;
+      padding-bottom: 90px;
+    }
+
+    .sticky-header {
+      position: sticky;
+      top: 0;
+      z-index: 1030;
+      background-color: #f8f9fa;
+      padding-top: 15px;
+      padding-bottom: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+
+    .page-title {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: #333;
+    }
+
+    .btn-whatsapp {
+      background-color: #25d366;
+      color: white;
+      font-weight: 600;
+      border-radius: 4px;
+      padding: 6px 16px;
+      white-space: nowrap;
+    }
+
+    .search-input-top {
+      max-width: 450px;
+      flex-grow: 1;
+    }
+
+    .dashboard-block {
+      color: white;
+      text-align: center;
+      padding: 16px 10px;
+      font-weight: bold;
+    }
+    .dash-orange { background-color: var(--orange-bg); }
+    .dash-blue { background-color: var(--blue-bg); }
+    .dash-green { background-color: var(--green-bg); }
+    .dash-pink { background-color: var(--pink-bg); }
+
+    .dash-title {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+      opacity: 0.95;
+    }
+    .dash-value {
+      font-size: 1.8rem;
+      font-weight: 800;
+      line-height: 1.1;
+    }
+
+    .table-container {
+      background: white;
+      border: 1px solid #e0e0e0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    }
+    .custom-table th {
+      background-color: var(--header-yellow) !important;
+      color: #333;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 0.85rem;
+      padding: 12px;
+      border-bottom: 2px solid #ddd;
+    }
+    .category-header {
+      background-color: var(--category-orange) !important;
+      color: white !important;
+      font-weight: 800;
+      font-size: 1rem;
+      text-transform: uppercase;
+      padding: 10px 15px !important;
+    }
+
+    .product-img {
+      width: 65px;
+      height: 65px;
+      object-fit: contain;
+      border-radius: 4px;
+      border: 1px solid #eee;
+      background: #fafafa;
+    }
+
+    .price-discounted {
+      color: #d81b60;
+      font-size: 1.15rem;
+      font-weight: 800;
+      display: block;
+    }
+    .price-original {
+      color: #888;
+      text-decoration: line-through;
+      font-size: 0.85rem;
+      display: block;
+    }
+
+    .qty-input {
+      width: 80px;
+      text-align: center;
+      font-weight: bold;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 6px;
+    }
+
+    .stock-badge {
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 4px;
+      display: inline-block;
+    }
+    .stock-in { background-color: #e8f5e9; color: #2e7d32; }
+    .stock-out { background-color: #ffebee; color: #c62828; }
+
+    .sold-out-badge {
+      background-color: #dc3545;
+      color: white;
+      font-weight: 700;
+      padding: 6px 12px;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      display: inline-block;
+    }
+
+    .scrolling-footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: #d32f2f;
+      color: #ffffff;
+      padding: 8px 0;
+      font-size: 0.88rem;
+      font-weight: 600;
+      z-index: 1000;
+      box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
+    }
+
+    .success-modal-header {
+      background: linear-gradient(135deg, #d32f2f 0%, #ff9800 100%);
+      color: white;
+    }
+    .cracker-burst-icon {
+      font-size: 3.5rem;
+      animation: pulse 1s infinite alternate;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      100% { transform: scale(1.15); }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="sticky-header px-4">
+    <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-3">
+      <h1 class="page-title mb-0">DIWALI CRACKERS 2026 PRICE LIST</h1>
+
+      <div class="search-input-top">
+        <div class="input-group">
+          <span class="input-group-text bg-white"><i class="bi bi-search text-muted"></i></span>
+          <input type="text" id="searchInput" class="form-control" placeholder="Search product name or code..." onkeyup="filterProducts()">
+        </div>
+      </div>
+
+      <div>
+        <button class="btn btn-whatsapp btn-sm" onclick="shareWhatsApp()">
+          <i class="bi bi-whatsapp"></i> WhatsApp Share
+        </button>
+      </div>
+    </div>
+
+    <div class="row g-0 rounded overflow-hidden shadow-sm">
+      <div class="col-md-3 col-6">
+        <div class="dashboard-block dash-orange">
+          <div class="dash-title">NUMBER OF PRODUCTS</div>
+          <div class="dash-value" id="dashProducts">0</div>
+        </div>
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="dashboard-block dash-blue">
+          <div class="dash-title">NUMBER OF ITEMS</div>
+          <div class="dash-value" id="dashItems">0</div>
+        </div>
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="dashboard-block dash-green">
+          <div class="dash-title">TOTAL AMOUNT</div>
+          <div class="dash-value"><span id="dashTotal">0</span> &#8377;</div>
+        </div>
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="dashboard-block dash-pink">
+          <div class="dash-title">YOU SAVE</div>
+          <div class="dash-value"><span id="dashSave">0</span> &#8377;</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container-fluid px-4 mt-3">
+    <div id="loadingSpinner" class="text-center py-5">
+      <div class="spinner-border text-danger" style="width: 3rem; height: 3rem;" role="status"></div>
+      <div class="mt-3 text-muted fw-bold">Loading product database...</div>
+    </div>
+
+    <div class="table-container rounded mb-4 d-none" id="tableWrapper">
+      <table class="table custom-table align-middle mb-0">
+        <thead>
+          <tr>
+            <th style="width: 100px;" class="text-center">IMAGE</th>
+            <th>PRODUCT NAME</th>
+            <th style="width: 130px;" class="text-center">STOCK</th>
+            <th style="width: 150px;" class="text-center">PRICE</th>
+            <th style="width: 120px;" class="text-center">QTY</th>
+            <th style="width: 140px;" class="text-end pe-4">SUB-TOTAL</th>
+          </tr>
+        </thead>
+        <tbody id="productTableBody"></tbody>
+      </table>
+    </div>
+
+    <div class="d-flex justify-content-end mb-5">
+      <button class="btn btn-danger btn-lg px-5 fw-bold shadow" onclick="openOrderModal()">
+        <i class="bi bi-cart-check-fill me-2"></i> GET ESTIMATE / SUBMIT
+      </button>
+    </div>
+  </main>
+
+  <div class="scrolling-footer">
+    <marquee behavior="scroll" direction="left" scrollamount="6">
+      As per Supreme Court Order, Online Sale of Firecrackers are NOT permitted. We Value our customers and at the same time, we respect the jurisdiction. We request our customers to Select Your Products in Estimate Page to see your Estimation and Submit the required crackers through the Get Estimate Button. We will contact you within 12 hrs and Confirm the Order through Phone Call. Please Add and Submit Your enquiries and enjoy your Diwali with Thirumala Trading Company.
+    </marquee>
+  </div>
+
+  <div class="modal fade" id="orderModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-danger text-white">
+          <h5 class="modal-title fw-bold"><i class="bi bi-file-earmark-text me-2"></i>Submit Order Enquiry</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <form id="customerForm">
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label class="form-label fw-bold">Full Name *</label>
+                <input type="text" class="form-control" id="custName" required placeholder="Enter full name">
+              </div>
+              <div class="col-md-6 mb-3">
+                <label class="form-label fw-bold">Phone Number *</label>
+                <input type="tel" class="form-control" id="custPhone" required placeholder="Enter 10-digit mobile number">
+              </div>
+            </div>
+            <div class="mb-3">
+              <label class="form-label fw-bold">Delivery Address *</label>
+              <textarea class="form-control" id="custAddress" rows="2" required placeholder="Enter full postal address"></textarea>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label fw-bold text-danger"><i class="bi bi-cart-check me-1"></i> Selected Items Breakdown:</label>
+              <div class="border rounded bg-white overflow-auto" style="max-height: 180px;">
+                <table class="table table-sm table-striped mb-0 align-middle" style="font-size: 0.85rem;">
+                  <thead class="table-light sticky-top">
+                    <tr>
+                      <th class="ps-2">Item Name</th>
+                      <th class="text-center">Price</th>
+                      <th class="text-center">Qty</th>
+                      <th class="text-end pe-2">Sub-Total</th>
+                    </tr>
+                  </thead>
+                  <tbody id="modalItemsListBody"></tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="p-3 bg-light rounded border mb-3">
+              <div class="d-flex justify-content-between mb-1">
+                <span>Total Selected Products:</span>
+                <strong id="modalProdCount">0</strong>
+              </div>
+              <div class="d-flex justify-content-between mb-1">
+                <span>Total Items Count:</span>
+                <strong id="modalItemCount">0</strong>
+              </div>
+              <div class="d-flex justify-content-between text-success fs-5 fw-bold border-top pt-2 mt-2">
+                <span>Estimated Pay Amount:</span>
+                <span>&#8377; <span id="modalTotalAmount">0</span></span>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-danger w-100 fw-bold py-2" id="submitBtn">
+              SUBMIT ENQUIRY
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="successModal" tabindex="-1" aria-hidden="true" data-bs-backdrop="static">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content text-center overflow-hidden border-0 shadow-lg">
+        <div class="modal-header success-modal-header justify-content-center py-3">
+          <h4 class="modal-title fw-bold text-white mb-0">🎆 ESTIMATE CONFIRMED! 🪔</h4>
+        </div>
+        <div class="modal-body py-4">
+          <div class="cracker-burst-icon mb-2">🧨✨💥</div>
+          <h5 class="fw-bold text-danger mb-2">Thank You, <span id="successCustName">Customer</span>!</h5>
+          <p class="fs-5 text-dark fw-semibold mb-3">Team will contact within 12 hours</p>
+          
+          <div class="p-3 bg-light rounded border text-start mx-2 mb-3">
+            <div class="d-flex justify-content-between mb-1">
+              <span class="text-muted">Order Sheet:</span>
+              <strong class="text-danger" id="successSheetName">-</strong>
+            </div>
+            <div class="d-flex justify-content-between">
+              <span class="text-muted">Estimated Amount:</span>
+              <strong class="text-success fs-6">&#8377; <span id="successTotal">0</span></strong>
+            </div>
+          </div>
+          
+          <div class="mb-2">
+            <button class="btn btn-warning fw-bold text-dark w-100 py-2 shadow-sm" onclick="downloadOrPrintPDF()">
+              <i class="bi bi-file-earmark-pdf-fill me-1"></i> View / Print PDF Estimate
+            </button>
+          </div>
+          <p class="small text-muted mb-0">Click the button above to view, download, or print your quotation estimate.</p>
+        </div>
+        <div class="modal-footer justify-content-center bg-light border-0 pb-4">
+          <button type="button" class="btn btn-danger px-5 fw-bold btn-lg rounded-pill shadow" onclick="resetPageForNewEntry()">
+            HAPPY DIWALI! OK 🪔
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+  <script>
+    const API_URL = "https://script.google.com/macros/s/AKfycbwthAabgYkFoyE_o3U6_71h6CgE0vJGi2pdNDYAh-pBHXbCryEiR3vsZrW3fqhe0a12/exec";
 
     let products = [];
     let filteredProducts = [];
     let quantities = {};
     let lastOrderPayload = null;
 
-    // Bulletproof dual-loader: Tries Google Apps Script, falls back to local products.json
     window.onload = function() {
-      let loaded = false;
+      let isLoaded = false;
 
-      // Timeout safety: If Google API doesn't answer within 3 seconds, switch to local products.json
-      const timeoutTrigger = setTimeout(() => {
-        if (!loaded) {
+      // Timeout fallback: If Google API doesn't return within 2.5 seconds, use products.json
+      const fallbackTimer = setTimeout(() => {
+        if (!isLoaded) {
           console.warn("Google API timeout. Loading local products.json...");
           loadLocalBackup();
         }
-      }, 3000);
+      }, 2500);
 
-      // JSONP callback
+      // Callback function invoked by JSONP script from Google Apps Script
       window.handleProductData = function(data) {
-        if (loaded) return;
-        loaded = true;
-        clearTimeout(timeoutTrigger);
+        if (isLoaded) return;
+        isLoaded = true;
+        clearTimeout(fallbackTimer);
 
         if (data && data.error) {
+          console.warn("API Error:", data.error);
           loadLocalBackup();
           return;
         }
@@ -36,21 +412,19 @@
         renderProductsTable();
       };
 
-      // Try fetching Google Apps Script via dynamic script tag
-      const script = document.createElement('script');
-      script.src = `${API_URL}?callback=handleProductData`;
-      
-      script.onerror = function() {
-        if (!loaded) loadLocalBackup();
+      // Create dynamic JSONP script element
+      const scriptTag = document.createElement('script');
+      scriptTag.src = API_URL + "?callback=handleProductData";
+      scriptTag.onerror = function() {
+        if (!isLoaded) loadLocalBackup();
       };
-
-      document.body.appendChild(script);
+      document.body.appendChild(scriptTag);
     };
 
     function loadLocalBackup() {
       fetch('./products.json')
         .then(res => {
-          if (!res.ok) throw new Error("Local products.json file not found");
+          if (!res.ok) throw new Error("Local products.json file missing");
           return res.json();
         })
         .then(data => {
@@ -61,7 +435,7 @@
           renderProductsTable();
         })
         .catch(err => {
-          showError("Unable to load products. Please refresh or disconnect from VPN.");
+          showError("Unable to load product list. Please check your network connection.");
         });
     }
 
@@ -155,7 +529,7 @@
       const product = products.find(p => p.slNo === slNo);
       if (product) {
         if (product.stock <= 0) {
-          alert(`Product '${product.name}' is SOLD OUT and cannot be ordered.`);
+          alert(`Product '${product.name}' is SOLD OUT.`);
           q = 0;
         } else if (q > product.stock) {
           q = product.stock;
@@ -265,7 +639,7 @@
 
       const submitBtn = document.getElementById('submitBtn');
       submitBtn.disabled = true;
-      submitBtn.innerHTML = `<span class="spinner-border spinner-border-sm me-2"></span> Processing...`;
+      submitBtn.innerHTML = `<span class="spinner-border spinner-border-sm me-2"></span> Submitting...`;
 
       fetch(API_URL, {
         method: "POST",
@@ -331,7 +705,7 @@
     function generateAndPrintPDF(order) {
       const printWin = window.open('', '_blank', 'width=800,height=900');
       if (!printWin) {
-        alert("Please allow pop-ups for this site to view the PDF estimate.");
+        alert("Please allow pop-ups to view/print the estimate PDF.");
         return;
       }
 
@@ -368,7 +742,7 @@
           <body>
             <div class="header">
               <h2>THIRUMALA TRADING COMPANY</h2>
-              <p>Sivakasi, Tamil Nadu | Licence No: xxx/2024</p>
+              <p>Sivakasi, Tamil Nadu</p>
               <h3>DIWALI CRACKERS ESTIMATION QUOTATION</h3>
             </div>
             <div class="details">
@@ -415,3 +789,5 @@
       window.open(`https://web.whatsapp.com/send?text=${encodeURIComponent(text)}`, '_blank');
     }
   </script>
+</body>
+</html>
