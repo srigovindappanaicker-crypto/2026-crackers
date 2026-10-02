@@ -375,7 +375,7 @@
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 
   <script>
-    const API_URL = "https://script.google.com/macros/s/AKfycbzOS7IkD_VDwzEwvN3SfKtmMY-5Idrw4eONtZbCMHeSIOJcMWfHQ2WfXeVYjlh8szE/exec";
+    const API_URL = "https://script.google.com/macros/s/AKfycbw9m_JLmox_WsY0YoQYBGsjuFT9_SqtnaQcU-TIc_MS8rndnyt6pm_htAkKu5A2a6t-/exec";
 
     let products = [];
     let filteredProducts = [];
@@ -385,15 +385,14 @@
     window.onload = function() {
       let isLoaded = false;
 
-      // Timeout fallback: If Google API doesn't return within 2.5 seconds, use products.json
+      // Timeout fallback: 6 seconds to accommodate live Google Sheet parsing
       const fallbackTimer = setTimeout(() => {
         if (!isLoaded) {
           console.warn("Google API timeout. Loading local products.json...");
           loadLocalBackup();
         }
-      }, 2500);
+      }, 6000);
 
-      // Callback function invoked by JSONP script from Google Apps Script
       window.handleProductData = function(data) {
         if (isLoaded) return;
         isLoaded = true;
@@ -412,7 +411,6 @@
         renderProductsTable();
       };
 
-      // Create dynamic JSONP script element
       const scriptTag = document.createElement('script');
       scriptTag.src = API_URL + "?callback=handleProductData";
       scriptTag.onerror = function() {
@@ -490,7 +488,7 @@
         const row = document.createElement('tr');
         row.innerHTML = `
           <td class="text-center">
-            <img src="${p.imageUrl}" class="product-img" alt="${p.name}" onerror="this.src='https://placehold.co/80x80/ffe0b2/e65100?text=Cracker'">
+            <img src="${p.imageUrl}" class="product-img" alt="${p.name}" crossorigin="anonymous" referrerpolicy="no-referrer" onerror="this.src='https://placehold.co/80x80/ffe0b2/e65100?text=Cracker'">
           </td>
           <td>
             <div class="fw-bold text-dark">${p.name}</div>
